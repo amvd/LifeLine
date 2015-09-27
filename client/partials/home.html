@@ -1,20 +1,44 @@
 <style type="text/css">
 	.jumbotron{
-		background-image: url('http://www.beliefnet.com/columnists/lessonsfromarecoveringdoormat/files/2012/02/friends.jpg');
+		background-image: url('../static/images/field.jpg');
+		background-size: cover;
+		height: 45em;
+		width: 100%;
+		background-position: center;
+		/*opacity: 0.7;*/
 	}
-	#jumbotron_h1{
+/*	#jumbotron_h1{
 		color: white;
 	}
 	#jumbotron_p{
 		color: white;
+	}*/
+/*	btn {
+		opacity: 1.0;
+	}*/
+	.help-button {
+	  position: relative;
+	  top: 20%;
+	  /*transform: translateY(-45%);*/
+	}
+	.jumbo-paragraph {
+		background-color: rgba(255, 255, 255, 0.6);
+		/*color: black;*/
+		height: 97%;
 	}
 </style>
 <div ng-controller='homeController'>
-	<div class="jumbotron">
-		<!-- <h1 id='jumbotron_h1'>Hello, world!</h1>
-		<p id='jumbotron_p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriesd</p> -->
-		<center><a class="btn btn-primary btn-lg" href="#/doctors_test" role="button">Get Help</a></center>
-	</div>
+		<div class="jumbotron">
+			<center class="jumbo-paragraph container">
+				<h1 id='jumbotron_h1'>Welcome to LifeLine.</h1>
+				<p>We're happy you're with us.</p> 
+				<p></p>
+				<center class="help-button">
+					<a class="btn btn-primary btn-lg" href="#/doctors_test" role="button">Let Us Help</a>
+				<center>
+			</center>
+			
+		</div>
 	<div >
 		
 	</div>
