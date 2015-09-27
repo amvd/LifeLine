@@ -1,19 +1,47 @@
-<center>
-  <h1>Doctors Near You</h1>
-
-  <p>
-    <button ng-click="findDoctors()">Find Doctors Near You</button>
-  </p>
-  <p ng-bind="error"></p>
-</center>
-
-<div ng-repeat="doctor in doctors" class="col-md-4 col-sm-6 col-xs-12">
+<div class="container">
   <center>
-    <h2 ng-bind="doctor.name"></h2>
-    <img ng-src="{{doctor.pic}}">
-    <p ng-bind="'Gender: ' + doctor.gender"></p>
-    <p ng-bind="'City: ' + doctor.city"></p>
-    <p ng-bind="'Phone Number: ' + doctor.phone"></p>
+    <h1>Doctors Near You</h1>
+
+    <p>
+      <button  class="btn btn-primary" ng-click="findDoctors()">Find Doctors Near You</button>
+    </p>
+    <p ng-bind="error"></p>
     <hr>
+    <h2>Or search by your doctor's phone number:</h2>
+    <form ng-submit="findDoctorByNumber(doctorNumber); doctorNumber=''">
+      <p>
+        <input type="text" ng-model="doctorNumber">
+      </p>
+      <p>
+        <input class="btn btn-primary" type="submit" value="Search By Number">
+      </p>
+    </form>
   </center>
+
+  <div ng-repeat="doctor in doctorsNumber" class="col-md-4 col-sm-6 col-xs-12">
+    <center>
+      <h2 ng-bind="doctor.name"></h2>
+      <p ng-bind="'Gender: ' + doctor.gender"></p>
+      <p ng-bind="'Address: ' + doctor.address"></p>
+      <p ng-bind="'Phone Number: ' + doctor.phone"></p>
+      <p>
+        <a class="btn btn-success" ng-href="tel:+1{{doctor.phone}}">Call Now</a>
+      </p>
+      <hr>
+    </center>
+  </div>
+
+  <div ng-repeat="doctor in doctors" class="col-md-4 col-sm-6 col-xs-12">
+    <center>
+      <h2 ng-bind="doctor.name"></h2>
+      <img ng-src="{{doctor.pic}}">
+      <p ng-bind="'Gender: ' + doctor.gender"></p>
+      <p ng-bind="'City: ' + doctor.city"></p>
+      <p ng-bind="'Phone Number: ' + doctor.phone"></p>
+      <p>
+        <a class="btn btn-success" ng-href="tel:+1{{doctor.phone}}">Call Now</a>
+      </p>
+      <hr>
+    </center>
+  </div>
 </div>
