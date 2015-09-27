@@ -15,6 +15,16 @@ LifeLine.config(function($routeProvider){
         title: "Chat",
         controller: "chatController"
     })
+    .when("/operatorChat", {
+        templateUrl: "partials/operatorChat.html",
+        title: "Operator Chat",
+        controller: "operatorChatController"
+    })
+    .when("/operatorChating/:roomId", {
+        templateUrl: "partials/operatorChating.html",
+        title: "help",
+        controller: "operatorChatingController"
+    })
     .when("/doctors_test", {
       templateUrl: "partials/doctors_test.html",
       title: "Doctors Test",
