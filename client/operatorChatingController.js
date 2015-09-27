@@ -2,6 +2,15 @@ LifeLine.controller("operatorChatingController", function($scope, $routeParams){
 
 	console.log("HI")
 	console.log($routeParams.roomId);
+
+	// $scope.percentage = "progress-bar-danger progress-bar"
+	$scope.width = "{'width': '50%'}";
+	// $scope.testing = "'width': '100%'"
+
+	$("#emotion").css("width: 100%")
+	// $scope.feeling = "progress-bar-danger progress-bar";
+	var scores = []
+
 	var number = $routeParams.roomId
 
 	var socket = io.connect();
@@ -72,9 +81,32 @@ LifeLine.controller("operatorChatingController", function($scope, $routeParams){
 	});
 
 	/*** Handle incoming messages ***/
+	// var testVar = 0
+	// $scope.happiness = testVar;
 
 	var eventListener = {
 		onIncomingMessage: function(message) {
+			$.get( "https://api.idolondemand.com/1/api/sync/analyzesentiment/v1?text= " + message.textBody + "cats&apikey=aaff2ad5-4351-43a9-a20c-44bc2919367f", function( data ) {
+
+				var percentage = Math.floor(((data.aggregate.score + 1) / 2) * 100);
+				console.log("response", percentage, data);
+
+				testVar = percentage
+
+				// console.log("Percentage: ",$scope.happiness);
+
+				if (percentage < 50) {
+					// $scope.width = JSON.stringify("{'width': '" + percentage +"%'}");
+					$scope.happiness = percentage;
+					console.log($scope.width);
+					$scope.$apply;
+				} else {
+					// $scope.width = JSON.stringify("{'width': '" + percentage +"%'}");
+					$scope.happiness = percentage;
+					console.log($scope.width);
+					$scope.$apply;
+				}
+			});
 			$('div#chatArea').prepend('<div class="msgRow" id="'+message.messageId+'"></div><div class="clearfix"></div>');
 
 			$('div.msgRow#'+message.messageId)
