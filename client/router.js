@@ -10,6 +10,11 @@ LifeLine.config(function($routeProvider){
       title: "Geo Test",
       controller: "geoController"
     })
+    .when("/chat", {
+        templateUrl: "partials/chat.html",
+        title: "Chat",
+        controller: "chatController"
+    })
     .when("/doctors_test", {
       templateUrl: "partials/doctors_test.html",
       title: "Doctors Test",

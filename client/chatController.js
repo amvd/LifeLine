@@ -9,4 +9,10 @@ LifeLine.controller("chatController", function($scope){
 			console.log(message);
 		}
 	});
+
+	/*** Name of session, can be anything. ***/
+	var sessionName = 'sinchSession-' + sinchClient.applicationKey;
+
+	var signUpObj = {};
+	signUpObj.username = "help"
 });
