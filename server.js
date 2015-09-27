@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, './client')));
 
-// require('./config/mongoose.js');
-// require('./config/routes.js')(app);
+require('./config/mongoose.js');
+require('./config/routes.js')(app);
 
 var server = app.listen(8000, function(){
 	console.log("Integrate winners on port 8000")
