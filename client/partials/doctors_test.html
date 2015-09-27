@@ -1,0 +1,16 @@
+<h1>Doctors Near You</h1>
+
+<p>
+  <button ng-click="findDoctors()">Find Doctors Near You</button>
+</p>
+
+<p ng-bind="error"></p>
+
+<div ng-repeat="doctor in doctors">
+  <h2 ng-bind="doctor.name"></h2>
+  <img ng-src="{{doctor.pic}}">
+  <p ng-bind="'Gender: ' + doctor.gender"></p>
+  <p ng-bind="'City: ' + doctor.city"></p>
+  <p ng-bind="'Phone Number: ' + doctor.phone"></p>
+  <hr>
+</div>
