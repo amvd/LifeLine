@@ -23,7 +23,7 @@ LifeLine.factory("doctorFactory_test", function($http) {
 
   return {
     getDoctors(position, setDoctors) {
-      $http.get("https://api.betterdoctor.com/2015-01-27/doctors?specialty_uid=psychiatrist&location="+position.coords.latitude+"%2C"+position.coords.longitude+"%2C100&user_location="+position.coords.latitude+"%2C"+position.coords.longitude+"&skip=0&limit=10&user_key=ed8fd89765b2a3ebad0f2dfa790fe780")
+      $http.get("https://api.betterdoctor.com/2015-01-27/doctors?specialty_uid=psychiatrist&location="+position.coords.latitude+"%2C"+position.coords.longitude+"%2C100&user_location="+position.coords.latitude+"%2C"+position.coords.longitude+"&skip=0&limit=12&user_key=ed8fd89765b2a3ebad0f2dfa790fe780")
         .success(function(results){
           var doctors = [];
           for (var i = 0; i < results.data.length; i++) {
