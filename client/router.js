@@ -23,7 +23,7 @@ LifeLine.config(function($routeProvider){
     .when("/operatorChating/:roomId", {
         templateUrl: "partials/operatorChating.html",
         title: "help",
-        controller: "operatorChatingController"
+        // controller: "operatorChatingController"
     })
     .when("/doctors_test", {
       templateUrl: "partials/doctors_test.html",

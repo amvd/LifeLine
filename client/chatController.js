@@ -12,6 +12,7 @@ LifeLine.controller("chatController", function($scope){
 	  socket.emit('newUser', usernameNumber)
 	  socket.on('operatorUser', function(data) {
 		  username = data
+		  console.log(data)
 		//   connect()
 	  })
   })
