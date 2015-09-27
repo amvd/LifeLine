@@ -30,4 +30,14 @@ LifeLine.config(function($routeProvider){
       title: "Doctors Test",
       controller: "doctorController_test"
     })
+    .when("/op", {
+      templateUrl: "partials/op.html",
+      title: "Operator Login",
+      controller: "opController"
+    })
+    .when("/opDash", {
+      templateUrl: "partials/opDash.html",
+      title: "Operator Dashboard",
+      controller: "opController"
+    })
 })

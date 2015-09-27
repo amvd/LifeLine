@@ -1,0 +1,11 @@
+<style type="text/css">
+	#login_error{
+		color: red;
+	}
+</style>
+<p id='login_error'>{{err}}</p>
+<form>
+	Email: <input type='text' ng-model='op.email'>
+	Password: <input type='text' ng-model='op.password'>
+	<input type='submit' value='Enter' ng-click='login()'>
+</form>

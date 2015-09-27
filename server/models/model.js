@@ -1,10 +1,8 @@
 var mongoose = require('mongoose');
 
-var modelSchema = new mongoose.Schema({
-	title: String,
-	description: String,
-	name: String,
-	checked: {type: Boolean, default: false}
+var operatorSchema = new mongoose.Schema({
+	email: String,
+	password: String
 });
 
-mongoose.model('Model', modelSchema);
+mongoose.model('Operator', operatorSchema);
