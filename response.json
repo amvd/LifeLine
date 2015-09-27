@@ -1,0 +1,1288 @@
+{
+ "meta": {
+  "data_type": "array",
+  "item_type": "Doctor",
+  "total": 1753,
+  "count": 10,
+  "skip": 0,
+  "limit": 10
+ },
+ "data": [
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.4621577960297802,
+     "lat": 37.78648,
+     "lon": -122.43364,
+     "uid": "79aae3bea4f83109dd84641fca423ed3",
+     "name": "Milkman Marilyn",
+     "insurance_uids": [
+      "gwhcigna-greatwestppo"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.78648,
+      "lon": -122.43364,
+      "state": "CA",
+      "state_long": "California",
+      "street": "1833 Fillmore St",
+      "street2": "Ste 300",
+      "zip": "94115"
+     },
+     "phones": [
+      {
+       "number": "4144458131",
+       "type": "fax"
+      },
+      {
+       "number": "4158858135",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Karen",
+    "middle_name": "Sue",
+    "last_name": "Johnson",
+    "slug": "karen-johnson-md-3",
+    "title": "MD",
+    "image_url": "https://asset4.betterdoctor.com/images/51e38875d887935dd80000c1-1_thumbnail.jpg",
+    "gender": "female",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "5cbc28025120fb6faa762e40d90c9121",
+     "provider_url": "https://betterdoctor.com/karen-johnson-md-3",
+     "rating": 4.5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.5.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.5@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.5.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.5@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "5cbc28025120fb6faa762e40d90c9121",
+   "npi": "1891861308",
+   "attribution_url": "https://betterdoctor.com/karen-johnson-md-3"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.0890120095407354,
+     "lat": 37.76901,
+     "lon": -122.43229,
+     "uid": "5c8dc5e3758c4ca5003f6622bb873836",
+     "name": "Paul Fishman MD A Professional Corporation",
+     "insurance_uids": [
+      "bcbsbluecard-bcbsbluecardppo",
+      "bluecrosscalifornia-bluecrosscaselectppo",
+      "bluecrosscalifornia-bluecrosscapathwayxhmoguidedaccess",
+      "premerabluecross-premeraheritagesignature"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.76901,
+      "lon": -122.43229,
+      "state": "CA",
+      "state_long": "California",
+      "street": "9 Walter St",
+      "zip": "94114"
+     },
+     "phones": [
+      {
+       "number": "4155521292",
+       "type": "fax"
+      },
+      {
+       "number": "4155521290",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Paul",
+    "middle_name": null,
+    "last_name": "Fishman",
+    "slug": "paul-fishman-md",
+    "title": "MD",
+    "image_url": "https://asset1.betterdoctor.com/images/52a5db894214f859d7000121-1_thumbnail.jpg",
+    "gender": "male",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "22437dab02fc47434d658d8f11e4436f",
+     "provider_url": "https://betterdoctor.com/paul-fishman-md",
+     "rating": 4,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "22437dab02fc47434d658d8f11e4436f",
+   "npi": "1902953193",
+   "attribution_url": "https://betterdoctor.com/paul-fishman-md"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.3759383750047585,
+     "lat": 37.7618,
+     "lon": -122.43383,
+     "uid": "0a1d9bb83fcfd0559c0ddcfbfa440b2a",
+     "name": "John Kruse, MD",
+     "insurance_uids": [],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.7618,
+      "lon": -122.43383,
+      "state": "CA",
+      "state_long": "California",
+      "street": "45 Hartford St",
+      "street2": "# A",
+      "zip": "94114"
+     },
+     "phones": [
+      {
+       "number": "4157018844",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "John",
+    "middle_name": "Samuel",
+    "last_name": "Kruse",
+    "slug": "john-kruse",
+    "title": "MD",
+    "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_male.png",
+    "gender": "male",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "john-kruse",
+     "provider_url": "https://betterdoctor.com/john-kruse",
+     "rating": 4,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-4.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-4.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "b52260762a65c7b4b463a56a271a051c",
+   "npi": "1740347830",
+   "attribution_url": "https://betterdoctor.com/john-kruse"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 2.470768019432884,
+     "lat": 37.786315,
+     "lon": -122.454991,
+     "uid": "380275a5252f5f45a95fc37ad78090ea",
+     "name": "Jeanne St Pierre, MD",
+     "insurance_uids": [
+      "aetna-aetnamanagedchoiceposopenaccess",
+      "aetna-aetnachoiceposii",
+      "aetna-aetnasignatureadministratorsppo",
+      "aetna-aetnahmo",
+      "aetna-aetnahmodeductibleplancamembersonly",
+      "aetna-aetnabasichmo",
+      "aetna-aetnavitalidadpluscaconaetna",
+      "blueshieldofcalifornia-blueshieldcabasicepobronzelevelhix",
+      "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+      "anthem-blueviewvision",
+      "healthnet-healthnetindividualfamilyppohix",
+      "medicare-medicare",
+      "medicaid-medicaid",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+      "healthnet-bluegoldhmo",
+      "firsthealthcoventryhealthcare-firsthealthppo"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.786315,
+      "lon": -122.454991,
+      "state": "CA",
+      "state_long": "California",
+      "street": "3700 California St",
+      "zip": "94118"
+     },
+     "phones": [
+      {
+       "number": "4046945375",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 1.2757346238645377,
+     "lat": 37.75563,
+     "lon": -122.4051,
+     "uid": "f2b5936367934732d7260c303f67a58e",
+     "name": "Jeanne St Pierre, MD",
+     "insurance_uids": [
+      "healthnet-healthnetindividualfamilyppohix",
+      "anthem-blueviewvision"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.75563,
+      "lon": -122.4051,
+      "state": "CA",
+      "state_long": "California",
+      "street": "1001 Potrero Ave",
+      "zip": "94110"
+     },
+     "phones": [
+      {
+       "number": "4152064585",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 1.6222459391025865,
+     "lat": 37.79119,
+     "lon": -122.43177,
+     "uid": "cf460ec6bf57434813ef242d2bd68496",
+     "name": "Jeanne St Pierre, MD",
+     "insurance_uids": [
+      "healthnet-healthnetcaindividualfamilyppo",
+      "bcbsbluecard-bcbsbluecardppo",
+      "premerabluecross-premeraheritagesignature",
+      "gwhcigna-greatwestppo"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.79119,
+      "lon": -122.43177,
+      "state": "CA",
+      "state_long": "California",
+      "street": "2340 Clay St",
+      "street2": "Fl 7",
+      "zip": "94115"
+     },
+     "phones": [
+      {
+       "number": "4156005739",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 1.6222459391025865,
+     "lat": 37.79119,
+     "lon": -122.43177,
+     "uid": "d808671c52f55d75b6f059dd4f34d9e3",
+     "name": "Jeanne St Pierre, MD",
+     "insurance_uids": [
+      "healthnet-healthnetindividualfamilyppohix",
+      "anthem-blueviewvision",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.79119,
+      "lon": -122.43177,
+      "state": "CA",
+      "state_long": "California",
+      "street": "2340 Clay St",
+      "zip": "94115"
+     },
+     "phones": [
+      {
+       "number": "4156001099",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Jeanne",
+    "middle_name": "Marie",
+    "last_name": "St Pierre",
+    "slug": "jeanne-stpierre-md",
+    "title": "MD",
+    "image_url": "https://asset1.betterdoctor.com/images/5298cda74214f8339d000c73-1_thumbnail.jpg",
+    "gender": "female",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "f04e62f2add1e7006882f4bdd87d7924",
+     "provider_url": "https://betterdoctor.com/jeanne-stpierre-md",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "f04e62f2add1e7006882f4bdd87d7924",
+   "npi": "1649481235",
+   "attribution_url": "https://betterdoctor.com/jeanne-stpierre-md"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.0821913883360799,
+     "lat": 37.78675,
+     "lon": -122.42249,
+     "uid": "9e15491c079322d16893036640a1b9f2",
+     "name": "Julie Stahl, MD",
+     "insurance_uids": [
+      "healthnet-healthnetcaindividualfamilyppo",
+      "healthnet-healthnetcalargegroupppo",
+      "healthnet-healthnetcacoveredcaliforniapposmallgroup",
+      "bcbsbluecard-bcbsbluecardppo",
+      "healthnet-healthnetindividualfamilyppohix",
+      "medicaid-medicaid",
+      "premerabluecross-premeraheritagesignature"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.78675,
+      "lon": -122.42249,
+      "state": "CA",
+      "state_long": "California",
+      "street": "1 Daniel Burnham Ct",
+      "street2": "Ste 365C",
+      "zip": "94109"
+     },
+     "phones": [
+      {
+       "number": "4155619923",
+       "type": "business_landline"
+      },
+      {
+       "number": "4159226344",
+       "type": "business_fax"
+      },
+      {
+       "number": "4155619923",
+       "type": "landline"
+      },
+      {
+       "number": "4159226344",
+       "type": "fax"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 1.5601890761197714,
+     "lat": 37.78591,
+     "lon": -122.43643,
+     "uid": "5b7858f406c387c6a30b2dbdd65768f4",
+     "name": "Stahl Julie",
+     "insurance_uids": [
+      "healthnet-healthnetindividualfamilyppohix",
+      "medicaid-medicaid"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.78591,
+      "lon": -122.43643,
+      "state": "CA",
+      "state_long": "California",
+      "street": "1700 Pierce St",
+      "zip": "94115"
+     },
+     "phones": [
+      {
+       "number": "4154417342",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 13.788640651558959,
+     "lat": 37.94752,
+     "lon": -122.53545,
+     "uid": "9afd757fa92f78390920cf09568dbc9e",
+     "name": "Julie Stahl, MD",
+     "insurance_uids": [
+      "healthnet-healthnetcacoveredcaliforniapposmallgroup",
+      "healthnet-healthnetcalargegroupppo",
+      "bcbsbluecard-bcbsbluecardppo",
+      "healthnet-healthnetcaindividualfamilyppo",
+      "premerabluecross-premeraheritagesignature"
+     ],
+     "visit_address": {
+      "city": "Greenbrae",
+      "lat": 37.94752,
+      "lon": -122.53545,
+      "state": "CA",
+      "state_long": "California",
+      "street": "250 Bon Air Rd",
+      "zip": "94904"
+     },
+     "phones": [
+      {
+       "number": "4154481500",
+       "type": "business_landline"
+      },
+      {
+       "number": "4157983180",
+       "type": "business_fax"
+      },
+      {
+       "number": "4154481500",
+       "type": "landline"
+      },
+      {
+       "number": "4158928732",
+       "type": "fax"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 23.763885760491515,
+     "lat": 38.09603,
+     "lon": -122.56236,
+     "uid": "e08185bf9f731f41b8f72b280ed37fce",
+     "name": "MARIN COMMUNITY CLINIC",
+     "insurance_uids": [
+      "bcbsbluecard-bcbsbluecardppo",
+      "premerabluecross-premeraheritagesignature"
+     ],
+     "visit_address": {
+      "city": "Novato",
+      "lat": 38.09603,
+      "lon": -122.56236,
+      "state": "CA",
+      "state_long": "California",
+      "street": "6100 Redwood Blvd",
+      "zip": "94945"
+     },
+     "phones": [
+      {
+       "number": "4154617062",
+       "type": "fax"
+      },
+      {
+       "number": "4154481500",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Julie",
+    "middle_name": "Beth",
+    "last_name": "Stahl",
+    "slug": "julie-stahl",
+    "title": "MD",
+    "image_url": "https://asset1.betterdoctor.com/images/52a0b8b54214f87a170001da-1_thumbnail.jpg",
+    "gender": "female",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "70bab1ad0ccfd564923118d96ced9fc4",
+     "provider_url": "https://betterdoctor.com/julie-stahl",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "70bab1ad0ccfd564923118d96ced9fc4",
+   "npi": "1780754275",
+   "attribution_url": "https://betterdoctor.com/julie-stahl"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.7041768174513592,
+     "lat": 37.78448,
+     "lon": -122.44062,
+     "uid": "560442cddb2cb8ee29fb5c92ab659349",
+     "name": "ROBERT S. HAUSNER M.D., PROFESSIONAL CORPORATION",
+     "insurance_uids": [],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.78448,
+      "lon": -122.44062,
+      "state": "CA",
+      "state_long": "California",
+      "street": "2354 Post St",
+      "zip": "94115"
+     },
+     "phones": [
+      {
+       "number": "4153884232",
+       "type": "fax"
+      },
+      {
+       "number": "4155635191",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Robert",
+    "middle_name": "Steven",
+    "last_name": "Hausner",
+    "slug": "robert-hausner",
+    "title": "MD",
+    "image_url": "https://asset1.betterdoctor.com/assets/general_doctor_male.png",
+    "gender": "male",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "f5fc602fd61e2b20abc6053b36ac4815",
+     "provider_url": "https://betterdoctor.com/robert-hausner",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "f5fc602fd61e2b20abc6053b36ac4815",
+   "npi": "1063585487",
+   "attribution_url": "https://betterdoctor.com/robert-hausner"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.800456138371168,
+     "lat": 37.787492,
+     "lon": -122.440401,
+     "uid": "a33ff7b3d194ffcf32c5bdb29cd6d4f4",
+     "name": "Shulamit Glaubach MD",
+     "insurance_uids": [
+      "aetna-aetnasignatureadministratorsppo",
+      "aetna-aetnachoiceposii",
+      "aetna-aetnahmodeductibleplancamembersonly",
+      "aetna-aetnahmo",
+      "aetna-aetnamanagedchoiceposopenaccess"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.787492,
+      "lon": -122.440401,
+      "state": "CA",
+      "state_long": "California",
+      "street": "1939 Divisadero St",
+      "street2": "Ste 4C",
+      "zip": "94115"
+     },
+     "phones": [
+      {
+       "number": "4154406505",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Shulamit",
+    "middle_name": null,
+    "last_name": "Glaubach",
+    "slug": "shulamit-glaubach-md",
+    "title": "MD",
+    "image_url": "https://asset3.betterdoctor.com/images/529f979e4214f86e970006a6-1_thumbnail.jpg",
+    "gender": "female",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "25b2f55b72b880911a5c106d9582658e",
+     "provider_url": "https://betterdoctor.com/shulamit-glaubach-md",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "child-psychiatrist",
+     "name": "Child & Adolescent Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of children's mental disorders.",
+     "category": "medical",
+     "actor": "Child Psychiatrist",
+     "actors": "Child Psychiatrists"
+    },
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "25b2f55b72b880911a5c106d9582658e",
+   "npi": "1003121708",
+   "attribution_url": "https://betterdoctor.com/shulamit-glaubach-md"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 1.8365257947007012,
+     "lat": 37.74716,
+     "lon": -122.42088,
+     "uid": "c33373db37a63feefb99d2d7abe076ca",
+     "name": "Yamilee Bermingham, MD",
+     "insurance_uids": [
+      "bluecrosscalifornia-bluecrosscacaliforniacarehmo",
+      "bluecrosscalifornia-bluecrosscaselectplushmo",
+      "cigna-cignahmo",
+      "cigna-cignaopenaccessplus",
+      "cigna-cignappo",
+      "cigna-cignalocalplus",
+      "bcbsbluecard-bcbsbluecardppo",
+      "healthnet-healthnetcacoveredcaliforniapposmallgroup",
+      "healthnet-healthnetcaindividualfamilyppo",
+      "healthnet-healthnetcalargegroupppo",
+      "uhcwestformerlypacificare-pacificarehmo",
+      "aetna-aetnamanagedchoiceposopenaccess",
+      "aetna-aetnachoiceposii",
+      "aetna-aetnasignatureadministratorsppo",
+      "multiplan-multiplanppo",
+      "anthem-blueviewvision",
+      "blueshieldofcalifornia-blueshieldcabasicppobronzelevelhix",
+      "healthnet-healthnetindividualfamilyppohix",
+      "medicare-medicare",
+      "medicaid-medicaid",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-bluegoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob",
+      "blueshieldofcalifornia-blueshieldcabasicepo",
+      "blueshieldofcalifornia-blueshieldcabasicexclusiveppoforsmallbusiness",
+      "blueshieldofcalifornia-blueshieldcabasicppo",
+      "blueshieldofcalifornia-blueshieldcappo",
+      "blueshieldofcalifornia-bscaplatinum90epo",
+      "premerabluecross-premeraheritagesignature",
+      "gwhcigna-greatwestppo",
+      "unitedhealthcare-uhcchoicepluspos",
+      "unitedhealthcare-uhcoptionsppo",
+      "firsthealthcoventryhealthcare-firsthealthppo"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.74716,
+      "lon": -122.42088,
+      "state": "CA",
+      "state_long": "California",
+      "street": "3555 Cesar Chavez",
+      "zip": "94110"
+     },
+     "phones": [
+      {
+       "number": "4156478600",
+       "type": "business_landline"
+      },
+      {
+       "number": "4158830877",
+       "type": "business_fax"
+      },
+      {
+       "number": "4156478600",
+       "type": "landline"
+      },
+      {
+       "number": "4156416823",
+       "type": "fax"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 1.3940651007316853,
+     "lat": 37.79142,
+     "lon": -122.4026,
+     "uid": "0b4bb82f8e7419e3b2f8e774075287b2",
+     "name": "Perl Mark",
+     "insurance_uids": [
+      "aetna-aetnachoiceposii",
+      "bluecrosscalifornia-bluecrosscappo",
+      "aetna-aetnamanagedchoiceposopenaccess",
+      "aetna-aetnahmo",
+      "bluecrosscalifornia-bluecrosscapathwayxtiereddirectaccess",
+      "bluecrosscalifornia-bluecrosscapathwayxhmoguidedaccess",
+      "bluecrosscalifornia-bluecrosscacaliforniacarehmo",
+      "aetna-aetnahmodeductibleplancamembersonly",
+      "cigna-cignaopenaccessplus",
+      "bcbsbluecard-bcbsbluecardppo",
+      "bluecrosscalifornia-bluecrosscaselectppo",
+      "bluecrosscalifornia-bluecrosscapathwayxppodirectaccess",
+      "premerabluecross-premeraheritagesignature",
+      "firsthealthcoventryhealthcare-firsthealthppo"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.79142,
+      "lon": -122.4026,
+      "state": "CA",
+      "state_long": "California",
+      "street": "235 Montgomery St",
+      "street2": "Ste 830",
+      "zip": "94104"
+     },
+     "phones": [
+      {
+       "number": "4155507535",
+       "type": "fax"
+      },
+      {
+       "number": "4155507535",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Mark",
+    "middle_name": "Mark",
+    "last_name": "Perl",
+    "slug": "mark-perl",
+    "title": "MD",
+    "image_url": "https://asset3.betterdoctor.com/images/51e385f7d8879341790000b6-1_thumbnail.jpg",
+    "gender": "male",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "mark-perl",
+     "provider_url": "https://betterdoctor.com/mark-perl",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "c4004cf3a7815954e6a76a74f6cd2086",
+   "npi": "1134145501",
+   "attribution_url": "https://betterdoctor.com/mark-perl"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 3.652390454772738,
+     "lat": 37.736564,
+     "lon": -122.46144,
+     "uid": "813daba4f084585e2c3ddad9989fcd31",
+     "name": "Michael Levinson, MD",
+     "insurance_uids": [
+      "healthnet-healthnetindividualfamilyppohix",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-bluegoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.736564,
+      "lon": -122.46144,
+      "state": "CA",
+      "state_long": "California",
+      "street": "160 Miraloma Dr",
+      "zip": "94127"
+     },
+     "phones": [
+      {
+       "number": "4155961151",
+       "type": "landline"
+      },
+      {
+       "number": "6506921280",
+       "type": "fax"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 1.2757346238645377,
+     "lat": 37.75563,
+     "lon": -122.4051,
+     "uid": "0c76beddc111352ac28e95499f4d42b0",
+     "name": "Michael Levinson, MD",
+     "insurance_uids": [
+      "anthem-blueviewvision",
+      "healthnet-healthnetindividualfamilyppohix",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-bluegoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.75563,
+      "lon": -122.4051,
+      "state": "CA",
+      "state_long": "California",
+      "street": "1001 Potrero Ave",
+      "zip": "94110"
+     },
+     "phones": [
+      {
+       "number": "4152064585",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Michael",
+    "middle_name": "Uri",
+    "last_name": "Levinson",
+    "slug": "michael-levinson-md",
+    "title": "MD",
+    "image_url": "https://asset4.betterdoctor.com/images/5463ffd24214f829150001ce-2_thumbnail.jpg",
+    "gender": "male",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "michael-levinson-md",
+     "provider_url": "https://betterdoctor.com/michael-levinson-md",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "5381d7c983e0c692719a86e962b30885",
+   "npi": "1306876883",
+   "attribution_url": "https://betterdoctor.com/michael-levinson-md"
+  },
+  {
+   "practices": [
+    {
+     "within_search_area": true,
+     "distance": 2.470025629435806,
+     "lat": 37.76381,
+     "lon": -122.456704,
+     "uid": "245a0b2df3ba0ff5405ef4c8c47650ac",
+     "name": "Kim Norman, MD",
+     "insurance_uids": [
+      "medicaid-medicaid",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.76381,
+      "lon": -122.456704,
+      "state": "CA",
+      "state_long": "California",
+      "street": "401 Parnassus Ave",
+      "street2": "# Adm",
+      "zip": "94143"
+     },
+     "phones": [
+      {
+       "number": "4154767000",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 2.470739501360796,
+     "lat": 37.76381,
+     "lon": -122.456704,
+     "uid": "2323f50619d83970229d39fabdabbdff",
+     "name": "Kim Norman, MD",
+     "insurance_uids": [
+      "medicaid-medicaid",
+      "aetna-aetnamdbronzesilverandgoldhmo",
+      "healthnet-hmoexcelcaresilvernetwork",
+      "healthnet-hmoexcelcaresilvernetworkmedicarecob"
+     ],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.76381,
+      "lon": -122.456704,
+      "state": "CA",
+      "state_long": "California",
+      "street": "401 Parnassus Ave",
+      "street2": "# Adm",
+      "zip": "94143"
+     },
+     "phones": [
+      {
+       "number": "4154767456",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    },
+    {
+     "within_search_area": true,
+     "distance": 2.470739501360796,
+     "lat": 37.76381,
+     "lon": -122.456704,
+     "uid": "15a6457490fde3d2814fae471b2c14c8",
+     "name": "Kim Norman, MD",
+     "insurance_uids": [],
+     "visit_address": {
+      "city": "San Francisco",
+      "lat": 37.76381,
+      "lon": -122.456704,
+      "state": "CA",
+      "state_long": "California",
+      "street": "401 Parnassus Ave",
+      "street2": "# Adm",
+      "zip": "94143"
+     },
+     "phones": [
+      {
+       "number": "4154767456",
+       "type": "landline"
+      }
+     ],
+     "languages": [
+      {
+       "name": "English",
+       "code": "en"
+      }
+     ]
+    }
+   ],
+   "profile": {
+    "first_name": "Kim",
+    "middle_name": "Peter",
+    "last_name": "Norman",
+    "slug": "kim-norman",
+    "title": "MD",
+    "image_url": "https://asset2.betterdoctor.com/images/528fbb854214f86d4d000651-1_thumbnail.jpg",
+    "gender": "male",
+    "languages": [
+     {
+      "name": "English",
+      "code": "en"
+     }
+    ]
+   },
+   "ratings": [
+    {
+     "active": true,
+     "provider": "betterdoctor",
+     "provider_uid": "63d2924810b0d0dc8604eab334d86392",
+     "provider_url": "https://betterdoctor.com/kim-norman",
+     "rating": 5,
+     "review_count": 0,
+     "image_url_small": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0.png",
+     "image_url_small_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-small-5.0@2x.png",
+     "image_url_large": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0.png",
+     "image_url_large_2x": "https://asset2.betterdoctor.com/assets/consumer/stars/stars-large-5.0@2x.png"
+    }
+   ],
+   "specialties": [
+    {
+     "uid": "psychiatrist",
+     "name": "Psychiatry",
+     "description": "Specializes in the diagnosis and treatment of mental disorders.",
+     "category": "medical",
+     "actor": "Psychiatrist",
+     "actors": "Psychiatrists"
+    }
+   ],
+   "uid": "63d2924810b0d0dc8604eab334d86392",
+   "npi": "1639211683",
+   "attribution_url": "https://betterdoctor.com/kim-norman"
+  }
+ ]
+}
